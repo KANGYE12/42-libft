@@ -6,7 +6,7 @@
 /*   By: kanye <kanye@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/19 17:41:50 by kanye             #+#    #+#             */
-/*   Updated: 2024/09/29 15:29:51 by kanye            ###   ########.fr       */
+/*   Updated: 2024/10/05 12:45:58 by kanye            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,7 +47,7 @@ char	**ft_split(char const *s, char c)
 	size_t	i;
 	size_t	substring_len;
 
-	substring = ft_calloc((count_substring(s, c) + 1), sizeof(char *));
+	substring = (char **)malloc((count_substring(s, c) + 1) * sizeof(char *));
 	if (!substring)
 		return (NULL);
 	i = 0;
@@ -58,15 +58,15 @@ char	**ft_split(char const *s, char c)
 			substring_len = 0;
 			while (s[substring_len] != '\0' && s[substring_len] != c)
 				substring_len++;
-			substring[i] = ft_substr(s, 0, substring_len);
-			if (!substring[i])
+			substring[i++] = ft_substr(s, 0, substring_len);
+			if (!substring[i - 1])
 				return (ft_free_all(substring, i));
 			s = s + substring_len;
-			i++;
 		}
 		else
 			s++;
 	}
+	substring[i] = NULL;
 	return (substring);
 }
 
