@@ -49,6 +49,40 @@ Below is a list of functions that are implemented in **libft**. These functions 
 | **ft_lstmap**        | Applies a function to each node of a list and creates a new list.     |
 
 ---
+# libft Project - Bonus and Additional Functions
+
+## Bonus Functions
+
+| Function              | Description                                                                                         |
+|-----------------------|-----------------------------------------------------------------------------------------------------|
+| **ft_lstnew**          | Creates a new node in a linked list and returns a pointer to it.                                      |
+| **ft_lstadd_front**    | Adds a new node at the beginning of the list.                                                        |
+| **ft_lstsize**         | Returns the size of the linked list (the number of nodes).                                           |
+| **ft_lstlast**         | Returns the last node of the linked list.                                                            |
+| **ft_lstadd_back**     | Adds a new node at the end of the list.                                                              |
+| **ft_lstdelone**       | Deletes a node in the linked list, freeing its content and the node itself.                         |
+| **ft_lstclear**        | Clears the entire list by deleting all nodes and freeing their content.                             |
+| **ft_lstiter**         | Iterates through the list and applies a function to each node's content.                            |
+| **ft_lstmap**          | Creates a new list by applying a function to the content of each node in the original list.         |
+
+## Additional Functions
+
+| Function              | Description                                                                                         |
+|-----------------------|-----------------------------------------------------------------------------------------------------|
+| **ft_itoa**            | Converts an integer to a string (char array).                                                        |
+| **ft_striteri**        | Applies a function to each character of a string, passing the index as a parameter.                |
+| **ft_putnbr_fd**       | Outputs an integer to a specified file descriptor.                                                   |
+| **ft_putchar_fd**      | Outputs a character to a specified file descriptor.                                                  |
+| **ft_putstr_fd**       | Outputs a string to a specified file descriptor.                                                    |
+| **ft_putendl_fd**      | Outputs a string followed by a newline to a specified file descriptor.                              |
+| **ft_strtrim**         | Trims the beginning and end of a string based on a set of characters.                               |
+| **ft_strmapi**         | Applies a function to each character of a string and creates a new string with the results.          |
+| **ft_substr**          | Returns a new string that is a substring of the given string, starting from a specific index.       |
+| **ft_split**           | Splits a string into an array of substrings, separated by a specified delimiter.                    |
+
+---
+
+These are the main bonus and additional functions that can be implemented in your **libft** project to showcase your skills with more advanced functionalities in C programming, especially with memory management and string manipulation.
 
 ## Project Requirements
 
