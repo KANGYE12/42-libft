@@ -51,20 +51,6 @@ Below is a list of functions that are implemented in **libft**. These functions 
 ---
 # libft Project - Bonus and Additional Functions
 
-## Bonus Functions
-
-| Function              | Description                                                                                         |
-|-----------------------|-----------------------------------------------------------------------------------------------------|
-| **ft_lstnew**          | Creates a new node in a linked list and returns a pointer to it.                                      |
-| **ft_lstadd_front**    | Adds a new node at the beginning of the list.                                                        |
-| **ft_lstsize**         | Returns the size of the linked list (the number of nodes).                                           |
-| **ft_lstlast**         | Returns the last node of the linked list.                                                            |
-| **ft_lstadd_back**     | Adds a new node at the end of the list.                                                              |
-| **ft_lstdelone**       | Deletes a node in the linked list, freeing its content and the node itself.                         |
-| **ft_lstclear**        | Clears the entire list by deleting all nodes and freeing their content.                             |
-| **ft_lstiter**         | Iterates through the list and applies a function to each node's content.                            |
-| **ft_lstmap**          | Creates a new list by applying a function to the content of each node in the original list.         |
-
 ## Additional Functions
 
 | Function              | Description                                                                                         |
@@ -79,6 +65,22 @@ Below is a list of functions that are implemented in **libft**. These functions 
 | **ft_strmapi**         | Applies a function to each character of a string and creates a new string with the results.          |
 | **ft_substr**          | Returns a new string that is a substring of the given string, starting from a specific index.       |
 | **ft_split**           | Splits a string into an array of substrings, separated by a specified delimiter.                    |
+
+---
+## Bonus Functions
+
+| Function              | Description                                                                                         |
+|-----------------------|-----------------------------------------------------------------------------------------------------|
+| **ft_lstnew**          | Creates a new node in a linked list and returns a pointer to it.                                      |
+| **ft_lstadd_front**    | Adds a new node at the beginning of the list.                                                        |
+| **ft_lstsize**         | Returns the size of the linked list (the number of nodes).                                           |
+| **ft_lstlast**         | Returns the last node of the linked list.                                                            |
+| **ft_lstadd_back**     | Adds a new node at the end of the list.                                                              |
+| **ft_lstdelone**       | Deletes a node in the linked list, freeing its content and the node itself.                         |
+| **ft_lstclear**        | Clears the entire list by deleting all nodes and freeing their content.                             |
+| **ft_lstiter**         | Iterates through the list and applies a function to each node's content.                            |
+| **ft_lstmap**          | Creates a new list by applying a function to the content of each node in the original list.         |
+
 
 ---
 
